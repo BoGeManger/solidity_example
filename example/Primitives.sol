@@ -1,7 +1,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-contract PrimitiveDataTypes {
+/**
+原始数据类型
+这里我们向您介绍 Solidity 中可用的一些原始数据类型。
+
+boolean
+uint256
+int256
+address
+**/
+contract Primitives {
     bool public boo = true;
 
     /*

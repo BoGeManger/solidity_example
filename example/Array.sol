@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
+/**
+数组可以具有编译时固定大小或动态大小。
+**/
 contract Array {
     // Several ways to initialize an array
     uint256[] public arr;

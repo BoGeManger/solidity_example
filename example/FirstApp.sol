@@ -1,6 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
+/**
+首次申请
+
+这是一个简单的合同，您可以获取、增加和减少此合同中的计数存储。
+**/
 contract Counter {
     uint256 public count;
 

@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
+/**
+删除数组元素的示例
+通过从右向左移动元素来删除数组元素
+**/
 contract ArrayRemoveByShifting {
     // [1, 2, 3] -- remove(1) --> [1, 3, 3] --> [1, 3]
     // [1, 2, 3, 4, 5, 6] -- remove(2) --> [1, 2, 4, 5, 6, 6] --> [1, 2, 4, 5, 6]

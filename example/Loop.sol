@@ -1,6 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
+/**
+For 和 While 循环
+Solidity 支持for、while和do while循环。
+
+不要编写不受限制的循环，因为这可能会达到 gas 限制，导致你的交易失败。
+
+由于上述原因，while和do while循环很少使用。
+**/
 contract Loop {
 
     function loop() pure public {

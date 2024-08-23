@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
+/**
+如果/否则
+Solidity 支持条件语句if，else if和else。
+**/
 contract IfElse {
     function foo(uint256 x) public pure returns (uint256) {
         if (x < 10) {

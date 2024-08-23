@@ -1,6 +1,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
+/**
+映射
+地图是用语法创建的mapping(keyType => valueType)。
+
+可以keyType是任何内置值类型、字节、字符串或任何契约。
+
+valueType可以是任何类型，包括另一个映射或数组。
+
+映射是不可迭代的。
+**/
 contract Mapping {
     // Mapping from address to uint
     mapping(address => uint256) public myMap;
